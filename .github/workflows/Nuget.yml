@@ -35,4 +35,4 @@ jobs:
       run: nuget pack TgBotFramework.Template.nuspec -NoDefaultExcludes
       
     - name: Push nuget package
-      run: nuget push TgBotFramework.Template.nupkg -Source https://api.nuget.org/v3/index.json
+      run: nuget push TgBotFramework.Template.*.nupkg -Source https://api.nuget.org/v3/index.json
