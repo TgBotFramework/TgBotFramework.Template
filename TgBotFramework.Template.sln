@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgBotFramework.Template.ConsoleHost", "src\TgBotFramework.Template.ConsoleHost\TgBotFramework.Template.ConsoleHost.csproj", "{9984F1F5-0629-4AC8-82D6-A3772B642BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgBotFramework.Template.Infrastructure", "src\TgBotFramework.Template.Infrastructure\TgBotFramework.Template.Infrastructure.csproj", "{4B15520A-E507-40D5-88FD-3B3C41D4F349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TgBotFramework.Template.Handlers", "src\TgBotFramework.Template.Handlers\TgBotFramework.Template.Handlers.csproj", "{EE6EC7BF-0CF2-40DE-9C8E-086C60884B60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9984F1F5-0629-4AC8-82D6-A3772B642BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9984F1F5-0629-4AC8-82D6-A3772B642BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9984F1F5-0629-4AC8-82D6-A3772B642BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9984F1F5-0629-4AC8-82D6-A3772B642BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B15520A-E507-40D5-88FD-3B3C41D4F349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B15520A-E507-40D5-88FD-3B3C41D4F349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B15520A-E507-40D5-88FD-3B3C41D4F349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B15520A-E507-40D5-88FD-3B3C41D4F349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6EC7BF-0CF2-40DE-9C8E-086C60884B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6EC7BF-0CF2-40DE-9C8E-086C60884B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6EC7BF-0CF2-40DE-9C8E-086C60884B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6EC7BF-0CF2-40DE-9C8E-086C60884B60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
