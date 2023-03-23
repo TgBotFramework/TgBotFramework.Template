@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TgBotFramework.Template</id>
+    <version>0.5</version>
+    <description>
+      Creates a template project for TgBotFramework
+    </description>
+    <releaseNotes>Added multiple solution files to create a runnable project in GitHub. No need to replace vars in the sln files anymore, the different project types should run directly from GitHub too.</releaseNotes>
+    <authors>Alex Fedorus</authors>
+    <projectUrl>https://github.com/TgBotFramework/TgBotFramework.Template</projectUrl>
+    <license type="expression">MIT</license>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <tags>csharp TgBotFramework template project dotnetcore core Telegram.Bot</tags>
+  </metadata>
+  <files>
+    <file src=".\src\**" target="content" exclude="appveyor.yml;*.nuspec;**\bin\**;**\obj\**;**\.vs\**;**\*.user;**\.idea\**"/>
+    <file src=".\src\.template.config\template.json" target="content\.template.config\template.json"/>
+  </files>
+</package>
