@@ -3,7 +3,7 @@
   "author": "Alex Fedorus",
   "name": "TgBotFramework.Template",
   "description": "A template for new console/service hosted bots",
-  "identity": "TgBotFramework.Template.0.2",
+  "identity": "TgBotFramework.Template",
   "shortName": "TgBotFramework",
   "tags": {
     "language": "C#",
