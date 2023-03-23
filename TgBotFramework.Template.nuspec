@@ -16,6 +16,6 @@
     <tags>csharp TgBotFramework template project dotnetcore core Telegram.Bot</tags>
   </metadata>
   <files>
-    <file src=".\**" target="content" exclude="appveyor.yml;*.nuspec;**\bin\**;**\obj\**;**\.vs\**;**\*.user;**\.idea\**"/>
+    <file src=".\**" target="content" exclude="appveyor.yml;*.nuspec;**\bin\**;**\obj\**;**\.vs\**;**\*.user;**\.idea\**;.git\**;.github\**"/>
   </files>
 </package>
