@@ -35,5 +35,4 @@ jobs:
       run: nuget pack TgBotFramework.Template.nuspec -NoDefaultExcludes
       
     - name: Push nuget package
-      if: startsWith(github.ref, 'refs/tags/v')
       run: nuget push TgBotFramework.Template.nupkg -Source https://api.nuget.org/v3/index.json
